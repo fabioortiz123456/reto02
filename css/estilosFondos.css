@@ -1,0 +1,37 @@
+body{
+    
+    background-image:url("https://montearroyo.co/wp-content/uploads/2017/12/hospedaje-cabanas-montearroyo-matrimonias-luna-de-miel-amor-novios-restaurante-campestre-naturaleza-bogota-alto-del-vino-galeria.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+header{
+    margin-top: 70px;
+}
+
+.inicio{
+    margin-top: 80px;
+}
+
+.fInicio{
+    background-image: url(https://images.adsttc.com/media/images/5c33/72ae/08a5/e545/f500/0167/medium_jpg/2015167_OS_N14.jpg?1546875452);
+    background-size:  50%;
+    background-repeat: repeat;
+    
+
+}
+
+#resultado{
+    max-width: 60%;
+    padding-left: 30px;
+    background-color: rgba(240, 248, 255, 0.425);
+    align-items: center;
+    text-align: justify;
+    font-size: 25px;
+
+    
+}
+
+

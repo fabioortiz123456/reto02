@@ -1,0 +1,67 @@
+input{
+    display:flex;
+    margin:auto;
+    height: 40px;;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+div{
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.padre{
+    margin: 20px auto;
+    width: 50%;
+    display: block;
+    flex-direction: row;
+    justify-items: center;
+    border: solid 5px ;
+    border-radius: 40px;
+    border-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(240, 248, 255, 0.753);
+    
+
+}
+
+
+.hijo{
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+    margin-left: 20px;
+    
+
+}
+
+
+button{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-items: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+
+}
+button:hover{
+    border: solid 3px;
+    background-color: rgba(105, 127, 252, 0.308);
+}
+
+.mensaje{
+    margin-bottom: 0px;
+}
+
+#pMensaje{
+    margin-bottom: 25px;
+}
+

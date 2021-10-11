@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/funcionesClientes.js"></script>
+    <link rel="stylesheet" href="css/estilosTablas.css">
+    <link rel="stylesheet" href="css/estilosFondos.css">
+    <link rel="stylesheet" href="css/estilosTextos.css">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <header>
+    <div class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="cabin.html">Nueva Cabaña</a>
+      <a href="mensaje.html">Nuevo Mensaje</a>
+    </div>
+      
+    
+    </header>
+
+    <h1>Nuevo Cliente</h1>
+
+    <div id="resultado"></div>
+    <div class="padre">  
+      <div class="hijo">
+        <input type="number" id="id" placeholder="id" />
+        <input type="text" id="name" placeholder="name" />
+        <input type="number" id="email" placeholder="email" />
+        <input type="number" id="age" placeholder="age" />
+      </div>
+      <div class="hijo">
+        <button onclick="traerInformacion()">Consultar</button>
+        <button onclick="guardarInformacion()">Guardar!</button>
+        <button onclick="editarInformacion()">Actualizar!</button>
+      </div>
+    </div>
+
+    
+    
+  </body>
+</html>
